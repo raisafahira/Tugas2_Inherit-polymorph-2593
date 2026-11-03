@@ -1,16 +1,23 @@
-// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
-public class TesSoal1 {
-   public TesSoal1() {
-   }
+package soal1;
 
-   public static void main(String[] var0) {
-      Laptop var1 = new Laptop("Asus", (double)8000000.0F, 24, 16, (double)14.0F);
-      Ponsel var2 = new Ponsel("Samsung", (double)5000000.0F, 12, 128, 3);
-      LaptopGaming var3 = new LaptopGaming("MSI", (double)1.5E7F, 12, 32, 15.6, "RTX 4060");
-      System.out.println(var1.infoSingkat());
-      System.out.println(var2.infoSingkat());
-      System.out.println(var3.infoSingkat());
-      System.out.printf("Pajak laptop: Rp%.0f%n", var1.hitungPajak());
-      System.out.printf("Promo laptop 10 persen: Rp%.0f%n", var1.hitungHargaPromo((double)10.0F));
-   }
+/**
+ * Kelas uji untuk Soal 1.
+ */
+public class TesSoal1 {
+    /**
+     * Menjalankan skenario uji hierarki perangkat.
+     *
+     * @param args tidak dipakai
+     */
+    public static void main(String[] args) {
+        Laptop l = new Laptop("Asus", 8000000, 24, 16, 14.0);
+        Ponsel p = new Ponsel("Samsung", 5000000, 12, 128, 3);
+        LaptopGaming g = new LaptopGaming("MSI", 15000000, 12, 32, 15.6, "RTX 4060");
+
+        System.out.println(l.infoSingkat());
+        System.out.println(p.infoSingkat());
+        System.out.println(g.infoSingkat());
+        System.out.printf("Pajak laptop: Rp%.0f%n", l.hitungPajak());
+        System.out.printf("Promo laptop 10 persen: Rp%.0f%n", l.hitungHargaPromo(10));
+    }
 }
