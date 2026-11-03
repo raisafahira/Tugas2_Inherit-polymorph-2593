@@ -1,3 +1,5 @@
+package soal1;
+
 /**
  * Merepresentasikan ponsel sebagai jenis perangkat elektronik.
  */
