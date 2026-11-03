@@ -1,3 +1,5 @@
+package soal1;
+
 // Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
 public class LaptopGaming extends Laptop {
    private static final int GARANSI_TAMBAHAN_BULAN = 6;
