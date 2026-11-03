@@ -1,3 +1,5 @@
+package soal1;
+
 // Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
 public class Perangkat {
    private static final double TARIF_PAJAK = 0.1;
