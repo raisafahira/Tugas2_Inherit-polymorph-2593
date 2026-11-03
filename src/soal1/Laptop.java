@@ -1,3 +1,5 @@
+package soal1;
+
 /**
  * Merepresentasikan laptop sebagai jenis perangkat elektronik.
  */
