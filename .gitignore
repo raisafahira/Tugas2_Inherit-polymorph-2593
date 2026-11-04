@@ -1,0 +1,15 @@
+# Hasil kompilasi
+out/
+target/
+bin/
+*.class
+
+# Pengaturan IDE
+.idea/
+.vscode/
+*.iml
+
+# File sistem
+.DS_Store
+Thumbs.db
+desktop.ini
